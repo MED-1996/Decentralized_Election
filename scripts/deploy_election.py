@@ -2,6 +2,8 @@ from brownie import Election, network, config
 from scripts.helpful_scripts import get_account
 import time
 
+# You will add your own voters/candidates/election controller data, you must create some test accounts and add their private keys
+# to the a .env file
 voters = ['0x42422f1ed5389A6b74fD52Fb94fcD2d05C121fe0', '0x2bc2FD69D438e490be453AAA2222320131da4C39', '0x51b81E4E2bd3F64a7d51205Fb1D5126E487ceB16', '0xce10c539233571fcD2d13345dC1bec1cA80FA0e9']
 candidates = ['0xEb8F5675fC1ca830de263866d78B855Fa7d0CF08', '0x75f280CbFfD4b2157D0a8FD761cB8F1F02B17250']
 election_controller = '0x2a5d3e586379EcC976803830D8F0AAcEb873b37B'

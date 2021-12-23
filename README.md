@@ -14,7 +14,7 @@ The goal of a decentralized election is to eliminate election fraud. {double vot
 * Fundamentals of Solidity.
 * Fundamentals of Brownie.
 * How to interact with the ethereum blockchain.
-* How to stage and commit changes from a local repository to the github repository.
+* How to stage and commit changes from a local repository to a github repository.
 * Difficulties in making a decentralized election.
 
 # Image :framed_picture:
@@ -23,8 +23,8 @@ The goal of a decentralized election is to eliminate election fraud. {double vot
 
 # How to Use
 
-* Download this repository.
-* Add a .env file that contains the private keys of 3-6 address.
+* Download this repository & have the brownie framework installed on your computer.
+* Add a .env file that contains the private keys of 3-6 address. (These keys represent the voters addresses/keys)
 * Open your computers terminal and "cd" to the repository folder.
 * Enter the following command into your terminal:...
 
