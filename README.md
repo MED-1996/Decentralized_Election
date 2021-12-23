@@ -7,7 +7,7 @@ An ethereum smart contract that allows the deployer to setup an election on the 
 * An election controller ethereum address (responsible for displaying the results of the election).
 * How long they'd like the election to last for.
 
-The goal of a decentralized election is to eliminate election fraud. {double voting, votes not being counted properly, when the vote ends, etc.}
+The goal of a decentralized election is to eliminate election fraud.
 
 # What I Learned :notebook:
 
