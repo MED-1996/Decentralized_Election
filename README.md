@@ -14,19 +14,20 @@ The goal of a decentralized election is to eliminate election fraud. {double vot
 * Fundamentals of Solidity.
 * Fundamentals of Brownie.
 * How to interact with the ethereum blockchain.
+* How to stage and commit changes from a local repository to the github repository.
 * Difficulties in making a decentralized election.
 
 # Image :framed_picture:
 
-![hi](https://github.com/MED-1996/Blackjack/blob/main/Blackjack_Gameplay.png)
+![Picture](https://github.com/MED-1996/Decentralized_Election/blob/main/Election_Voting_Results.png)
 
 # How to Use
 
 * Download this repository.
-* Download python3 on your computer.
+* Add a .env file that contains the private keys of 3-6 address.
 * Open your computers terminal and "cd" to the repository folder.
 * Enter the following command into your terminal:...
 
 Run Command:
 
-	python Blackjack.py
+	brownie run scripts/deploy_election.py --network rinkeby
